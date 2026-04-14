@@ -1,0 +1,10 @@
+# code-server configuration
+# See: https://coder.com/docs/code-server/latest/FAQ#how-does-the-config-file-work
+
+bind-addr: 0.0.0.0:8080
+
+# Authentication is disabled by default for development; set a password or hashed password in production.
+auth: none
+
+# TLS is handled by a reverse proxy in production; disable here.
+cert: false

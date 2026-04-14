@@ -1,0 +1,18 @@
+services:
+  code-server:
+    build: .
+    image: code-server:latest
+    container_name: code-server
+    restart: unless-stopped
+    command: /home/coder/workspace
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      - PASSWORD=${PASSWORD}
+      - HASHED_PASSWORD=${HASHED_PASSWORD}
+      - DOCKER_USER=${DOCKER_USER:-coder}
+    volumes:
+      - ${WORKSPACE_PATH}:/home/coder/project
+      - ./data/extensions:/home/coder/.local/share/code-server
+      - ./config/settings.json:/home/coder/.local/share/code-server/User/settings.json:ro
+      - ./config/locale.json:/home/coder/.local/share/code-server/User/locale.json:ro

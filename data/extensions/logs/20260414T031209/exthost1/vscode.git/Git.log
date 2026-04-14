@@ -1,0 +1,46 @@
+2026-04-14 03:12:17.214 [info] [main] Log level: Info
+2026-04-14 03:12:17.215 [info] [main] Validating found git in: "git"
+2026-04-14 03:12:17.215 [info] [main] Using git "2.47.3" from "git"
+2026-04-14 03:12:17.215 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-14 03:12:17.215 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-14 03:12:17.218 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2026-04-14 03:12:17.227 [info] [Model][openRepository] Opened repository (path): /home/coder/project
+2026-04-14 03:12:17.227 [info] [Model][openRepository] Opened repository (real path): /home/coder/project
+2026-04-14 03:12:17.227 [info] [Model][openRepository] Opened repository (kind): repository
+2026-04-14 03:12:17.230 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-14 03:12:17.232 [info] > git config --get commit.template [2ms]
+2026-04-14 03:12:17.232 [info] > git rev-parse --show-toplevel [3ms]
+2026-04-14 03:12:17.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-04-14 03:12:17.234 [warning] [Git][getBranch] No such branch: main
+2026-04-14 03:12:17.237 [info] > git rev-parse --show-toplevel [3ms]
+2026-04-14 03:12:17.238 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-14 03:12:17.240 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-04-14 03:12:17.248 [info] > git status -z -uall [12ms]
+2026-04-14 03:12:17.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-04-14 03:12:17.254 [warning] [Git][getBranch] No such branch: main
+2026-04-14 03:12:17.254 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-04-14 03:12:17.255 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-14 03:12:17.256 [info] > git config --get commit.template [3ms]
+2026-04-14 03:12:17.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-04-14 03:12:17.257 [warning] [Git][getBranch] No such branch: main
+2026-04-14 03:12:17.261 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-04-14 03:12:17.269 [info] > git status -z -uall [11ms]
+2026-04-14 03:12:17.752 [info] > git check-ignore -v -z --stdin [5ms]
+2026-04-14 03:12:19.145 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-14 03:12:19.146 [info] > git config --get commit.template [3ms]
+2026-04-14 03:12:19.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-04-14 03:12:19.148 [warning] [Git][getBranch] No such branch: main
+2026-04-14 03:12:19.154 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-04-14 03:12:19.166 [info] > git status -z -uall [17ms]
+2026-04-14 03:12:24.180 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-14 03:12:24.181 [info] > git config --get commit.template [4ms]
+2026-04-14 03:12:24.184 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-04-14 03:12:24.184 [warning] [Git][getBranch] No such branch: main
+2026-04-14 03:12:24.194 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-04-14 03:12:24.211 [info] > git status -z -uall [25ms]
+2026-04-14 03:12:29.225 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-14 03:12:29.231 [info] > git config --get commit.template [7ms]
+2026-04-14 03:12:29.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-04-14 03:12:29.237 [warning] [Git][getBranch] No such branch: main
+2026-04-14 03:12:29.248 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-04-14 03:12:29.262 [info] > git status -z -uall [22ms]

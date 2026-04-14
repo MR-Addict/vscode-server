@@ -1,0 +1,40 @@
+[2026-04-14T03:11:04.998Z] info  code-server 4.115.0 1c6fb2dc200eb57c5c7d612004e18a5e6ae8b0ed
+[2026-04-14T03:11:04.998Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2026-04-14T03:11:05.003Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2026-04-14T03:11:05.003Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2026-04-14T03:11:05.003Z] info    - Authentication is disabled
+[2026-04-14T03:11:05.003Z] info    - Not serving HTTPS
+[2026-04-14T03:11:05.003Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[03:11:07] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[03:11:07] Extension host agent started.
+[03:11:07] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[03:11:07] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[03:11:08] [192.168.65.1][dd04de03][ManagementConnection] New connection established.
+[03:11:08] [192.168.65.1][cceb985f][ExtensionHostConnection] New connection established.
+[03:11:08] [192.168.65.1][cceb985f][ExtensionHostConnection] <75> Launched Extension Host Process.
+[03:11:08] [192.168.65.1][cceb985f][ExtensionHostConnection] <75> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
+[2026-04-14T03:12:07.319Z] info  code-server 4.115.0 1c6fb2dc200eb57c5c7d612004e18a5e6ae8b0ed
+[2026-04-14T03:12:07.319Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2026-04-14T03:12:07.324Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2026-04-14T03:12:07.324Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2026-04-14T03:12:07.324Z] info    - Authentication is disabled
+[2026-04-14T03:12:07.324Z] info    - Not serving HTTPS
+[2026-04-14T03:12:07.324Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[03:12:09] 
+
+
+
+
+[reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[03:12:09] Extension host agent started.
+[03:12:14] [192.168.65.1][81c06c14][ManagementConnection] New connection established.
+[03:12:14] [192.168.65.1][666bf28b][ExtensionHostConnection] New connection established.
+[03:12:14] [192.168.65.1][666bf28b][ExtensionHostConnection] <87> Launched Extension Host Process.
+[03:12:14] [192.168.65.1][666bf28b][ExtensionHostConnection] <87> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
+
