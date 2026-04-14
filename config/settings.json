@@ -1,13 +1,13 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontSize": 14,
   "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": false,
+  "workbench.colorTheme": "Dark Modern",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "python.defaultInterpreterPath": "/usr/bin/python3",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.tabSize": 4
-  },
-  "workbench.colorTheme": "Default Dark",
-  "terminal.integrated.defaultProfile.linux": "bash"
+  }
 }

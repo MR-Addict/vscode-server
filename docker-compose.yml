@@ -14,5 +14,6 @@ services:
     volumes:
       - ${WORKSPACE_PATH}:/home/coder/project
       - ./data/extensions:/home/coder/.local/share/code-server
-      - ./config/settings.json:/home/coder/.local/share/code-server/User/settings.json:ro
-      - ./config/locale.json:/home/coder/.local/share/code-server/User/locale.json:ro
+      - ./config/settings.json:/home/coder/.local/share/code-server/User/settings.json
+      - ./config/argv.json:/home/coder/.local/share/code-server/User/argv.json
+      - ./config/config.yaml:/home/coder/.config/code-server/config.yaml:ro
