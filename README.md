@@ -1,5 +1,9 @@
 # VSCode Server
 
 ```sh
-docker build -t code-server .
+docker compose build --no-cache
+```
+
+```sh
+docker compose up -d
 ```

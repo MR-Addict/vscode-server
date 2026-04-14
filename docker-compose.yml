@@ -8,12 +8,9 @@ services:
     ports:
       - "${PORT:-8080}:8080"
     environment:
-      - PASSWORD=${PASSWORD}
-      - HASHED_PASSWORD=${HASHED_PASSWORD}
-      - DOCKER_USER=${DOCKER_USER:-coder}
+      - DOCKER_USER=${DOCKER_USER:-keepresearch}
     volumes:
       - ${WORKSPACE_PATH}:/home/coder/project
-      - ./data/extensions:/home/coder/.local/share/code-server
       - ./config/settings.json:/home/coder/.local/share/code-server/User/settings.json
       - ./config/argv.json:/home/coder/.local/share/code-server/User/argv.json
       - ./config/config.yaml:/home/coder/.config/code-server/config.yaml:ro

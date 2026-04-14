@@ -1,11 +1,11 @@
 {
   "editor.tabSize": 2,
   "editor.fontSize": 14,
-  "editor.formatOnSave": false,
+  "files.autoSave": "off",
+  "editor.formatOnSave": true,
   "workbench.colorTheme": "Dark Modern",
   "terminal.integrated.defaultProfile.linux": "bash",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "python.defaultInterpreterPath": "/usr/bin/python3",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.tabSize": 4
