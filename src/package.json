@@ -1,0 +1,53 @@
+{
+  "name": "bili-player",
+  "displayName": "Bilibili Player",
+  "repository": {
+    "url": "https://github.com/MR-Addict/vscode-server"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "biliPlayer.open",
+        "title": "Open Bilibili Player"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "biliPlayerContainer",
+          "title": "Bilibili Player",
+          "icon": "$(play-circle)"
+        }
+      ]
+    },
+    "views": {
+      "biliPlayerContainer": [
+        {
+          "type": "webview",
+          "id": "biliPlayer.sidebar",
+          "name": "Player"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc && vsce package --out dist/bili-player.vsix",
+    "dev": "tsc -watch"
+  },
+  "files": [
+    "dist/**",
+    "webview/**"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^3.7.1",
+    "typescript": "^5.0.0"
+  }
+}
